@@ -16,22 +16,27 @@
   * if (x == y) {
 
     * **YOUR WRITING HERE**
+    Correct
 
   * if [x == 10] {
 
     * **YOUR WRITING HERE**
+    incorrect >> if (x = 10) {
 
   * if x = 10 then {
 
     * **YOUR WRITING HERE**
+    incorrect >> if (x = 10) {
 
   * if (x equals 42) {
 
     * **YOUR WRITING HERE**
+    incorrect >> if (x = 42) {
 
   * if (x => y) {
 
     * **YOUR WRITING HERE**
+    incorrect >> if (x >= y) {
 
 
 3. Fix the error in the code below:
@@ -40,9 +45,13 @@
   Scanner console = new Scanner(System.in);
   System.out.print("What is your favorite color? ");
   String name = console.next();
-  if (name == "blue") {
+  if (name == "blue") {
       System.out.println("Mine, too!");
   }
   ```
 
   * **YOUR WRITING HERE**
+In this code there should be the equals method instead of ==:
+if (name.equals("blue")) {
+  System.out.println("Mine, too!");
+}
