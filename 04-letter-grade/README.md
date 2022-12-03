@@ -16,7 +16,7 @@
 
 2. Discuss how you would make sure 100 is not misrepresented as an A-.
   * **YOUR WRITING HERE**
-
+Make a statement that if the grade is 100, it should be A+.
 
 3. Discuss how you would make sure grades that are an F are not mislabeled as F- or F+ (eg: 49 -> F+ and 52 -> F-)
   * **YOUR WRITING HERE**
