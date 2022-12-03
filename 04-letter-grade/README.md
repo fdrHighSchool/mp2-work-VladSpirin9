@@ -6,7 +6,12 @@
   * Attach a "-" on their grade if the grade ends in a 0, 1 or 2 (eg: 92 -> A-, 61 -> D-)
 
     * **YOUR WRITING HERE**
-   
+   if (g % 10 >= 7) {
+        grade += "+";
+      }
+      else if (g % 10 <= 2) {
+        grade += "-";
+      }
 
 
 2. Discuss how you would make sure 100 is not misrepresented as an A-.
