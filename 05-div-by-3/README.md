@@ -7,3 +7,5 @@ Think of the following method header:
 `public static boolean isPrime(int num)`
 
   * **YOUR WRITING HERE**
+The prime number cannot divide by anything but 1 and itself. If a given number is a factor of 2, we move on 3. If after that the number is a factor of 3, we move on to 4. If a number is a factor of 4, it is clear it is not a prime. Otherwise, the number is a prime.
+ 
